@@ -1,4 +1,4 @@
-package if¹®;
+package ifë¬¸;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class Q1330 {
 		int a = Integer.parseInt(str[0]);
 		int b = Integer.parseInt(str[1]);
 		
-		// »ïÇ×¿¬»êÀÚ int a = (5 < 4) ? 50 : 40;
+		// ì‚¼í•­ì—°ì‚°ì int a = (5 < 4) ? 50 : 40;
 		System.out.println((a > b) ? ">" : ((a < b) ? "<" : "=="));
 		
 		/*
