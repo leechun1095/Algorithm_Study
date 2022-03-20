@@ -1,4 +1,4 @@
-package ÀÔÃâ·Â°ú»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥ê³¼ì‚¬ì¹™ì—°ì‚°;
 
 import java.util.Scanner;
 
@@ -17,23 +17,23 @@ public class Q1000 {
 		/* https://st-lab.tistory.com/12
 		// Reference Type
 		// >> Class Type - String Class
-		String ¹®ÀÚ¿­_space = in.next();
-		String ¹®ÀÚ¿­_Enter = in.nextLine();
+		String ë¬¸ìì—´_space = in.next();
+		String ë¬¸ìì—´_Enter = in.nextLine();
 
 		// Primitive Type
 		// >> boolean Type
-		boolean ºÎ¿ï = in.nextBoolean();
+		boolean ë¶€ìš¸ = in.nextBoolean();
 
 		// >> Numeric Type
 		// >> >> Integer Type
-		byte ¹ÙÀÌÆ® = in.nextByte();
-		short ¼îÆ® = in.nextShort();
-		int Á¤¼ö = in.nextInt();
-		long ·Õ = in.nextLong();
+		byte ë°”ì´íŠ¸ = in.nextByte();
+		short ì‡¼íŠ¸ = in.nextShort();
+		int ì •ìˆ˜ = in.nextInt();
+		long ë¡± = in.nextLong();
 
 		// >> >> Floating Point Type
-		double ´õºíÇü = in.nextDouble();
-		float ÇÃ·Ô = in.nextFloat();
+		double ë”ë¸”í˜• = in.nextDouble();
+		float í”Œë¡¯ = in.nextFloat();
 		*/
 	}
 }

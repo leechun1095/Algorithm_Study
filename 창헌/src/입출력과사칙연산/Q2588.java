@@ -1,4 +1,4 @@
-package ÀÔÃâ·Â°ú»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥ê³¼ì‚¬ì¹™ì—°ì‚°;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,7 +25,7 @@ public class Q2588 {
 //		System.out.println(c[0]-'0'); // 3
 		
 		
-		/* Á¦Ãâ½Ã runtime ¿¡·¯³²...
+		/* ì œì¶œì‹œ runtime ì—ëŸ¬ë‚¨...
 		int a = Integer.parseInt(str[0]); // 472
 		int b = Integer.parseInt(str[1]); // 385
 		

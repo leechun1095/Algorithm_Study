@@ -1,4 +1,4 @@
-package ÀÔÃâ·Â°ú»çÄ¢¿¬»ê;
+package ì…ì¶œë ¥ê³¼ì‚¬ì¹™ì—°ì‚°;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class Q1008 {
 		double a = Double.parseDouble(str[0]);
 		double b = Double.parseDouble(str[1]);
 		
-//		int·Î ¹ŞÀ¸¸é ¿¡·¯³­´Ù.
+//		intë¡œ ë°›ìœ¼ë©´ ì—ëŸ¬ë‚œë‹¤.
 //		int a = Integer.parseInt(str[0]);
 //		int b = Integer.parseInt(str[1]);
 		
