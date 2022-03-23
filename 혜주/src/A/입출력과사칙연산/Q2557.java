@@ -1,4 +1,4 @@
-package 입출력과사칙연산;
+package A.입출력과사칙연산;
 public class Q2557 {
 
 	public static void main(String[] args) {

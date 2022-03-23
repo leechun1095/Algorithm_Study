@@ -1,4 +1,4 @@
-package If문;
+package B.If문;
 
 import java.util.ArrayList;
 import java.util.Collections;
