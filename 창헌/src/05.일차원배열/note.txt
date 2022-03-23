@@ -53,3 +53,38 @@
   --=================================================	
 	int minVal = Integer.MIN_VALUE;
 	int maxVal = Integer.MAX_VALUE;
+	
+  --=================================================
+  -- 6. HashSet (Q3052)
+  --=================================================
+	중복되는 원소를 넣을 경우 하나만 저장한다. 즉, 중복원소를 허용하지 않는다.
+	HashSet 은 순서 개념이 없다. 따라서 Collections.sort() 메소드를 사용할 수 없다.
+	만약 정렬을 하고 싶다면 리스트로 변환 후 정렬해야한다.
+	HashSet 을 이용하면 자연스럽게 나머지 값이 HashSet 원소에 이미 저장되어있어 중복일 경우 저장이 되지 않고 
+	HashSet 에 없으면 저장한다.
+	즉, HashSet 에 저장하면서 들어간 원소의 개수가 HashSet 의 사이즈가 되는 것
+	
+  --=================================================
+  -- 7. String.format (Q4344)
+  --=================================================
+	String클래스의 format 메소드는 리턴되는 문자열 형태를 지정하는 함수
+	이 함수를 활용하면 Math.round() 함수와 같이 소수점 n번째 자리까지 반올림하여 나타낼 수 있음
+	
+	System.out.println(String.format("%.3f", (cnt/N)*100));
+	
+	double pie = 3.14159265358979;
+	double money = 4424.243423;
+	System.out.println(String.format("%.2f", pie)); //결과 : 3.14
+	System.out.println(String.format("%.3f", pie)); //결과 : 3.142
+	System.out.println(String.format("%,.3f", money)); //결과 : 4,424.243
+
+  --=================================================
+  -- 8. Math.round와 String.format 차이점 (Q4344)
+  --=================================================  
+	Math.round()함수는 소수점아래가 0일경우 절삭하지만 
+	String.format은 절삭하지 않고 그대로 리턴합니다.
+	아래 예제를 보시면 한번에 이해하실 수 있을겁니다.
+	
+	double money = 5000.000;
+	System.out.println(Math.round(money*1000)/1000); //결과 5000
+	System.out.println(String.format("%.3f", money)); //결과 : 5000.000
