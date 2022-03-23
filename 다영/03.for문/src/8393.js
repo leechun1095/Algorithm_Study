@@ -3,6 +3,8 @@ const inputData = fs.readFileSync(0, 'utf-8').toString().split(' ')
 
 let n = parseInt(inputData[0])
 
-for (let i = 1; i < 10; i++) {
-    console.log('%d * %d = %d', n, i, n*i)
+let total = 0
+for(let i=0; i<=n; i++){
+    total = total + i
 }
+console.log('%d', total)
