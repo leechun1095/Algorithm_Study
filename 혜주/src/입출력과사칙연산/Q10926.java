@@ -1,13 +1,14 @@
+package 입출력과사칙연산;
 import java.util.Scanner;
 
-public class Q18108 {
+public class Q10926 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int yyyy = sc.nextInt();
+		String id = sc.next();
 		
-		System.out.println(yyyy-543);
+		System.out.println(id + "??!");
 	}
 
 }
