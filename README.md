@@ -2,7 +2,8 @@
 
 <h2>👋 Algorithm_Study(2022.03.19 ~ )<h3>
 <div>
-  <h6>1.&nbsp;&nbsp;2022.03.26(Sat) 10:00 ~ 12:00 (Discord)</h6>
+  <h6>✔&nbsp;1.&nbsp;&nbsp;2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation</h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;2022.03.26(Sat) 10:00 ~ 12:00 (Discord)</h6>
 </div>
 <br>
 
