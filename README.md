@@ -4,10 +4,12 @@
 <br>  
 
 <h3>🏅 Baekjoon solved rank</h3>
-  
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=skgml0)](https://solved.ac/skgml0)   
+
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ldy0956)](https://solved.ac/ldy0956)   
-<br>  
   
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlckdgjs89)](https://solved.ac/dlckdgjs89)
-<br>
-  
+
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=alias8282)](https://solved.ac/alias8282)
+
