@@ -13,6 +13,9 @@
 |9|[별 찍기-1](https://www.acmicpc.net/problem/2438)|[2438.js](src/2438.js)|
 |10|[별 찍기-2](https://www.acmicpc.net/problem/2439)|[2439.js](src/2439.js)|
 |11|[X보다 작은 수](https://www.acmicpc.net/problem/10871)|[10871.js](src/10871.js)|
+|12|[A+B-5](https://www.acmicpc.net/problem/10952)|[10952.js](src/10952.js)|
+|13|[A+B-4](https://www.acmicpc.net/problem/10951)|[10951.js](src/10951.js)|
+|14|[더하기 사이클](https://www.acmicpc.net/problem/1110)|[1110.js](src/1110.js)|
 
 
 ## 새롭게 알게 된 것
@@ -25,6 +28,20 @@ for (let i = 1; i < 10; i++) {
     console.log('%d * %d = %d', n, i, n*i)
 }
 ```
+
+### js의 while문
+
+```javascript
+let i = 0
+while (true) {
+    if (i==5) {
+        break;
+    }
+
+    console.log(i++)
+}
+```
+
 
 ### js string 반복 출력
 ```javascript
