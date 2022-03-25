@@ -1,7 +1,10 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/leechun1095/Algorithm_Study&count_bg=%233DBCC8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<h3>👋 Algorithm_Study(2022.03.19 ~ )<h3>
-<br>  
+<h2>👋 Algorithm_Study(2022.03.19 ~ )<h3>
+<div>
+  <h6>1.&nbsp;&nbsp;2022.03.26(Sat) 10:00 ~ 12:00 (Discord)</h6>
+</div>
+<br>
 
 <h3>🏅 Baekjoon solved rank</h3>
 
