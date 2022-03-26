@@ -1,8 +1,8 @@
-package C_for문;
+package C_반복문;
 
 import java.util.Scanner;
 
-public class Q10950 {
+public class Q2739 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
