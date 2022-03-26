@@ -3,7 +3,8 @@
 <h2>👋 Algorithm_Study<h2>
 <div>
   <h6>✔&nbsp;1.&nbsp;&nbsp;2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation</h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;2022.03.26(Sat) 10:00 ~ 12:00 (Discord)</h6>
+  <h6>✔&nbsp;2.&nbsp;&nbsp;2022.03.26(Sat) 10:00 ~ 12:00 (Discord) : 01.입출력과 사칙연산 ~ 02.조건문 </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;2022.04.02(Sat) 10:00 ~ 12:00 (Discord) : 03.반복문 ~ 07.기본 수학1 </h6>
 </div>
 <br>
 
