@@ -7,3 +7,8 @@
   --=================================================
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	int[] arr = Integer.parseInt(br.readLine().split(" "));
+	
+  --=================================================
+  -- 2. 몇층까지라고 문제에 안나온 것 같은데.. (Q2775)
+  --=================================================	
+	
