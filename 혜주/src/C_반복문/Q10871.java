@@ -8,32 +8,33 @@ import java.io.OutputStreamWriter;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Q2439 {
+public class Q10871 {
 
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		int n = Integer.parseInt(br.readLine());
+		
+		try {
+			StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+			int N = Integer.parseInt(st.nextToken());
+			int X = Integer.parseInt(st.nextToken());
+			
+			st = new StringTokenizer(br.readLine(), " ");
 
-		for(int i=1; i<=n; i++) {
-			for(int k=n; k>0;k--) {
-				if(k > i) {
-					bw.write(" ");
-				} else {
-					bw.write("*");
+			for(int i=0; i<N; i++) {
+				int value = Integer.parseInt(st.nextToken());
+				if(X > value) {
+					bw.write(value + " ");
 				}
 			}
 			
-//			if(i != n) {
-//				bw.write("\n");
-//			}
-			bw.newLine();
+			bw.flush();
+		} catch (Exception e) {
+			
+		} finally {
+			br.close();
+			bw.close();
 		}
-		
-		bw.flush();
-		
-		br.close();
-		bw.close();
 	}
-
 }
