@@ -41,7 +41,7 @@ System.out.println(sb.toString().getClass().getName()); // java.lang.String
 ## StringBuilder
 StringBuilder는 변경가능한 문자열이지만 synchronization이 적용되지 않았다.
 
-### 사용 예시 (Q10951.java)
+### 사용 예시 ([Q10951](03.반복문/Q10951.java))
 ```java
 // 입력의 종료는 더이상 읽을 수 있는 데이터(EOF, End Of File)가 없을 때 종료한다.
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -67,7 +67,7 @@ System.out.println(sb);
 2. 문자열이 빈번하게 변경되면서 멀티쓰레드 환경이라면 StringBuffer 사용을 고려
 3. 문자열이 빈번하게 변경되면서 멀티쓰레드 환경이 아니라면 StringBuilder 사용을 고려
 
-## StringTokenizer (Q10818.java)
+## StringTokenizer ([Q10818](04.일차원배열/Q10818.java))
 - 문자열 -> 배열로 파싱할 때 유용하다.
 - countTokens()로 총토큰의 개수를 구하고, nextToken()으로 한 토큰씩 꺼낼 수 있다.
 ```java
@@ -77,7 +77,7 @@ while(st.hasMoreTokens()) {
 }
 ```
 
-## 배열을 사용 안 하고 처리하는 코드가 상대적으로 성능이 좋다. (Q10818)
+## 배열을 사용 안 하고 처리하는 코드가 상대적으로 성능이 좋다. ([Q10818](04.일차원배열/Q10818.java))
 배열은 메모리를 사용하기 때문에 
 
 ## Arrays.sort(arr);
@@ -106,7 +106,7 @@ int minVal = Integer.MIN_VALUE;
 int maxVal = Integer.MAX_VALUE;
 ```
 
-## HashSet (Q3052)
+## HashSet ([Q3052](04.일차원배열/Q3052.java))
 - 중복되는 원소를 넣을 경우 하나만 저장한다. 즉, 중복원소를 허용하지 않는다.
 - HashSet 은 순서 개념이 없다. 따라서 Collections.sort() 메소드를 사용할 수 없다.
 - 만약 정렬을 하고 싶다면 리스트로 변환 후 정렬해야한다.
@@ -125,7 +125,7 @@ br.close();
 System.out.println(h.size());
 ```
 
-## String.format (Q4344)
+## String.format ([Q4344](04.일차원배열/Q4344.java))
 - String클래스의 format 메소드는 리턴되는 문자열 형태를 지정하는 함수
 - 이 함수를 활용하면 Math.round() 함수와 같이 소수점 n번째 자리까지 반올림하여 나타낼 수 있음
 
@@ -139,7 +139,7 @@ System.out.println(String.format("%.3f", pie)); //결과 : 3.142
 System.out.println(String.format("%,.3f", money)); //결과 : 4,424.243
 ```
 
-## Math.round와 String.format 차이점 (Q4344)
+## Math.round와 String.format 차이점 ([Q4344](04.일차원배열/Q4344.java))
 Math.round()함수는 소수점아래가 0일경우 절삭하지만 String.format은 절삭하지 않고 그대로 리턴합니다.
 
 ```java
@@ -155,7 +155,7 @@ int ch = str.charAt(0);
 char ch = str.charAt(0);
 System.out.println(ch);
 ```
-#### str.charAt(0) -'0' (Q2577)
+#### str.charAt(0) -'0' ([Q2577](04.일차원배열/Q2577.java))
 - str.charAt(0) 은 문자가 출력된다.
 - 문자 '1'은 int형으로 형변환을 하면 아스키코드 값으로 변환되는데 49이다.
 
@@ -163,8 +163,63 @@ System.out.println(ch);
 1. -'0'을 빼준다. ('0'은 아스키코드 48)
 2. -48 을 빼준다
 
-## 대문자로 변환, 소문자로 변환 메소드 (Q1157)
+## 대문자로 변환, 소문자로 변환 메소드 ([Q1157](06.문자열/Q1157.java))
 ```java
 String str = str.toUpperCase();
 String str1 = str.toLowerCase();
+```
+
+## BigInteger ([Q10757](07.기본수학1/Q10757.java))
+각 타입의 숫자 범위를 넘어서는 경우 0으로 출력된다.
+무한의 정수가 들어갈 수 있는 가능성이 있다면 BigInteger 를 사용해야 한다.
+문자열 형태로 이루어져 있어 숫자의 범위가 무한하기에 어떠한 숫자든지 담을 수 있음
+
+#### int 
+- 메모리 크기는 4byte로 표현 범위 : -2,147,483,648 ~ 2,147,483,647
+
+#### Long
+- 메모리 크기는 8byte로 표현 범위 : -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807
+
+#### BigInteger 선언
+BigInteger을 초기화하기 위해서는 문자열을 인자 값으로 넘겨주어야 한다는 점
+
+```java
+BigInteger bigNumber = new BigInteger("10000");
+```
+
+#### BigInteger 계산
+BigInteger은 문자열이기에 사칙연산이 안된다.
+BigIntger 내부의 숫자를 계산하기 위해서는 BigIntger 클래스 내부에 있는 메서드를 사용해야 합니다.
+
+```java
+BigInteger A = new BigInteger("100000");
+BigInteger B = new BigInteger("10000");
+		
+System.out.println("덧셈(+) :" +A.add(B));
+System.out.println("뺄셈(-) :" +A.subtract(B));
+System.out.println("곱셈(*) :" +A.multiply(B));
+System.out.println("나눗셈(/) :" +A.divide(B));
+System.out.println("나머지(%) :" +A.remainder(B));
+```
+
+#### BigInteger 형 변환
+
+```java
+BigInteger bigNumber = BigInteger.valueOf(100000); //int -> BigIntger
+
+int int_bigNum = bigNumber.intValue(); //BigIntger -> int
+long long_bigNum = bigNumber.longValue(); //BigIntger -> long
+float float_bigNum = bigNumber.floatValue(); //BigIntger -> float
+double double_bigNum = bigNumber.doubleValue(); //BigIntger -> double
+String String_bigNum = bigNumber.toString(); //BigIntger -> String
+```
+
+#### BigInteger 두 수 비교
+```java
+BigInteger A = new BigInteger("100000");
+BigInteger B = new BigInteger("1000000");
+		
+//두 수 비교 compareTo 맞으면 0   틀리면 -1
+int compare = A.compareTo(B);
+System.out.println(compare);
 ```
