@@ -11,6 +11,12 @@ function is_self(n, nums){
     if (n + total <= 10000) {
         nums.delete(n+total)
     }
+
+    return nums
 }
 
-console.log([...nums].join('\n'));
+for (let i = 1; i <= 10000; i++) {
+    nums = is_self(i, nums)
+}
+
+console.log([...nums].join("\n")); 
