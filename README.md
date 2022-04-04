@@ -1,15 +1,15 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/leechun1095/Algorithm_Study&count_bg=%233DBCC8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## 👋 Algorithm_Study
-###### ✔ 01. 2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation   
-###### ✔ 02. 2022.03.26(Sat) 10:10 ~ 11:10 (Discord) : 01.입출력과 사칙연산 ~ 02.조건문  
-###### ✔ 03. 2022.04.03(Sun) 22:00 ~ 22:45 (Discord) : 03.반복문 ~ 05.함수
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04. 2022.04.09(Sat) 10:00 ~ 12:00 (Discord) : 06.문자열 ~ 09.재귀 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 05. 2022.04.15(Sat) 10:00 ~ 12:00 (Discord) : 10.브루트포스 ~ 11.정렬 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 06. 2022.04.23(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 07. 2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 300-수학1 ~ 303-수학1(참고) 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 08. 2022.05.07(Sat) 10:00 ~ 12:00 (Discord) : 400-다이나믹 Prog1 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09. 2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) 
+###### ✔ 1. 2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation   
+###### ✔ 2. 2022.03.26(Sat) 10:10 ~ 11:10 (Discord) : 01.입출력과 사칙연산 ~ 02.조건문  
+###### ✔ 3. 2022.04.03(Sun) 22:00 ~ 22:45 (Discord) : 03.반복문 ~ 05.함수
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. 2022.04.09(Sat) 10:00 ~ 12:00 (Discord) : 06.문자열 ~ 09.재귀 
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. 2022.04.15(Sat) 10:00 ~ 12:00 (Discord) : 10.브루트포스 ~ 11.정렬 
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. 2022.04.23(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) 
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. 2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 300-수학1 ~ 303-수학1(참고) 
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. 2022.05.07(Sat) 10:00 ~ 12:00 (Discord) : 400-다이나믹 Prog1 
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. 2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. 2022.05.21(Sat) 10:00 ~ 12:00 (Discord) : 521-브루트포스(순열) ~ 533-브루트포스(재귀) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. 2022.05.28(Sat) 10:00 ~ 12:00 (Discord) : 541-브루트포스(비트마스크) ~ 611-BFS(연습) 
 
