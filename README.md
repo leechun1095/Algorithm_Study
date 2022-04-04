@@ -2,15 +2,17 @@
 
 <h2>👋 Algorithm_Study<h2>
 <div>
-  <h6>✔&nbsp;1.&nbsp;&nbsp;2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation</h6>
-  <h6>✔&nbsp;2.&nbsp;&nbsp;2022.03.26(Sat) 10:10 ~ 11:10 (Discord) : 01.입출력과 사칙연산 ~ 02.조건문 </h6>
-  <h6>✔&nbsp;3.&nbsp;&nbsp;2022.04.03(Sun) 22:00 ~ 22:45 (Discord) : 03.반복문 ~ 05.함수 </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;&nbsp;2022.04.09(Sat) 10:00 ~ 12:00 (Discord) : 06.문자열 ~ 09.재귀 </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;&nbsp;2022.04.15(Sat) 10:00 ~ 12:00 (Discord) : 10.브루트포스 ~ 11.정렬 </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.&nbsp;&nbsp;2022.04.23(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.&nbsp;&nbsp;2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 300-수학1 ~ 303-수학1(참고) </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.&nbsp;&nbsp;2022.05.07(Sat) 10:00 ~ 12:00 (Discord) : 400-다이나믹 Prog1 </h6>
-  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.&nbsp;&nbsp;2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) </h6>
+  <h6>✔&nbsp;01.&nbsp;&nbsp;2022.03.19(Sat) 10:00 ~ 10:30 (Discord) : Orientation</h6>
+  <h6>✔&nbsp;02.&nbsp;&nbsp;2022.03.26(Sat) 10:10 ~ 11:10 (Discord) : 01.입출력과 사칙연산 ~ 02.조건문 </h6>
+  <h6>✔&nbsp;03.&nbsp;&nbsp;2022.04.03(Sun) 22:00 ~ 22:45 (Discord) : 03.반복문 ~ 05.함수 </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04.&nbsp;&nbsp;2022.04.09(Sat) 10:00 ~ 12:00 (Discord) : 06.문자열 ~ 09.재귀 </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05.&nbsp;&nbsp;2022.04.15(Sat) 10:00 ~ 12:00 (Discord) : 10.브루트포스 ~ 11.정렬 </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;06.&nbsp;&nbsp;2022.04.23(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07.&nbsp;&nbsp;2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 300-수학1 ~ 303-수학1(참고) </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08.&nbsp;&nbsp;2022.05.07(Sat) 10:00 ~ 12:00 (Discord) : 400-다이나믹 Prog1 </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09.&nbsp;&nbsp;2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.&nbsp;&nbsp;2022.05.21(Sat) 10:00 ~ 12:00 (Discord) : 521-브루트포스(순열) ~ 533-브루트포스(재귀) </h6>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11.&nbsp;&nbsp;2022.05.28(Sat) 10:00 ~ 12:00 (Discord) : 541-브루트포스(비트마스크) ~ 611-BFS(연습) </h6>
 </div>
 <br>
 
