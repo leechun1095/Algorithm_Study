@@ -12,9 +12,9 @@
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09. 2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. 2022.05.21(Sat) 10:00 ~ 12:00 (Discord) : 521-브루트포스(순열) ~ 533-브루트포스(재귀) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. 2022.05.28(Sat) 10:00 ~ 12:00 (Discord) : 541-브루트포스(비트마스크) ~ 611-BFS(연습) 
-<hr/>
 
-## 🏅 Baekjoon solved rank
+
+## 🏅 Members (Baekjoon)
 
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=skgml0)](https://solved.ac/skgml0) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ldy0956)](https://solved.ac/ldy0956)   
   
