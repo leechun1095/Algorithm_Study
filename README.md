@@ -28,8 +28,8 @@
 | 창헌 | 혜주 | 나희 | 소희 |  
 
 
-|[![](https://github.com/wisdom08.png?size=80)](https://github.com/wisdom08)|[<img src="https://github.com/hololol-101.png" width="80">](https://github.com/hololol-101) |[![](https://github.com/Gorillaz9.png?size=80)](https://github.com/Gorillaz9) | 
-|:---:|:---:|:---:|
-| 지혜 | 강은 | 민정 |
+|[![](https://github.com/wisdom08.png?size=80)](https://github.com/wisdom08)|[![](https://github.com/Gorillaz9.png?size=80)](https://github.com/Gorillaz9) | 
+|:---:|:---:|
+| 지혜 | 민정 |
 
 
