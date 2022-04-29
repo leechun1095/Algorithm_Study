@@ -20,17 +20,47 @@ public class Q1406 {
 		String str = br.readLine();
 		int N = Integer.parseInt(br.readLine());
 		
-		Stack<Character> right = new Stack<Character>();
 		Stack<Character> left = new Stack<Character>();
+		Stack<Character> right = new Stack<Character>();
 		
-		// init
-		for(int i=str.length(); i>0; i++) {
-			left.push(str.charAt(i-1));
+		// init stack
+		for(int i=0; i<str.length(); i++) {
+			left.push(str.charAt(i));
 		}
 				
 		// command
+		String command;
+		StringTokenizer st;
 		for(int i=0; i<N; i++) {
-			// TODO
+			command = br.readLine();
+			
+			if("L".equals(command)) {
+				if(!left.isEmpty()) {
+					right.push(left.pop());
+				}
+			} else if("D".equals(command)) {
+				if(!right.isEmpty()) {
+					left.push(right.pop());
+				}
+			} else if("B".equals(command)) {
+				if(!left.isEmpty()) {
+					left.pop();
+				}
+			} else {
+				st = new StringTokenizer(command, " ");
+				command = st.nextToken();
+				if("P".equals(command)) {
+					left.push(st.nextToken().charAt(0));
+				}
+			}
+		}
+		
+		while(!left.isEmpty()) {
+			right.push(left.pop());
+		}
+		
+		while(!right.isEmpty()) {
+			sb.append(right.pop());
 		}
 		
 		System.out.println(sb);
