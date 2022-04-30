@@ -7,7 +7,7 @@
 ###### ✔ 4️. 2022.04.09(Sat) 10:00 ~ 10:35 (Discord) : 06.문자열 ~ 09.재귀 
 ###### ✔ 5. 2022.04.16(Sat) 10:15 ~ 11:10 (Discord) : ~ 09.재귀 
 ###### ✔ 6. 2022.04.24(Sun) 10:00 ~ 11:00 (Discord) : 10.브루트포스 ~ 11.정렬 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. 2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) 
+###### ✔ 7. 2022.04.30(Sat) 10:00 ~ 12:00 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. 2022.04.07(Sat) 10:00 ~ 12:00 (Discord) : 300-수학1 ~ 303-수학1(참고) 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. 2022.05.14(Sat) 10:00 ~ 12:00 (Discord) : 400-다이나믹 Prog1 
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. 2022.05.21(Sat) 10:00 ~ 12:00 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전) 
@@ -27,4 +27,6 @@
 |:---:|:---:|:---:|:---:|
 | 창헌 | 혜주 | 나희 | 소희 |  
 
-
+|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |  
+|:---:|:---:|:---:|
+| 정환 | 종명 | 서은 |  
