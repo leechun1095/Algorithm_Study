@@ -2,14 +2,14 @@
 
 |no|문제|풀이|
 |---|----|----|
-|1|[단어 뒤집기2](https://www.acmicpc.net/problem/17413)|[Q17413.java](/lecture/data_structure1/Q17413.java)|
-|2|[쇠막대기](https://www.acmicpc.net/problem/10799)|[Q10799.java](/lecture/data_structure1/Q10799.java)|
-|3|[오큰수_1](https://www.acmicpc.net/problem/17298)|[Q17298.java](/lecture/data_structure1/Q17298.java)|
-|4|[오큰수_2](https://www.acmicpc.net/problem/17298)|[Q17298_2.java](/lecture/data_structure1/Q17298_2.java)|
-|5|[오큰수_3](https://www.acmicpc.net/problem/17298)|[Q17298_3.java](/lecture/data_structure1/Q17298_3.java)|
-|6|[오등큰수](https://www.acmicpc.net/problem/17299)|[Q17299.java](/lecture/data_structure1/Q17299.java)|
-|7|[후위표기식2](https://www.acmicpc.net/problem/1935)|[Q1935.java](/lecture/data_structure1/Q1935.java)|
-|8|[후위표기식](https://www.acmicpc.net/problem/1918)|[Q1918.java](/lecture/data_structure1/Q1918.java)|
+|1|[단어 뒤집기2](https://www.acmicpc.net/problem/17413)|[Q17413.java](data_structure1/Q17413.java)|
+|2|[쇠막대기](https://www.acmicpc.net/problem/10799)|[Q10799.java](data_structure1/Q10799.java)|
+|3|[오큰수_1](https://www.acmicpc.net/problem/17298)|[Q17298.java](data_structure1/Q17298.java)|
+|4|[오큰수_2](https://www.acmicpc.net/problem/17298)|[Q17298_2.java](data_structure1/Q17298_2.java)|
+|5|[오큰수_3](https://www.acmicpc.net/problem/17298)|[Q17298_3.java](data_structure1/Q17298_3.java)|
+|6|[오등큰수](https://www.acmicpc.net/problem/17299)|[Q17299.java](data_structure1/Q17299.java)|
+|7|[후위표기식2](https://www.acmicpc.net/problem/1935)|[Q1935.java](data_structure1/Q1935.java)|
+|8|[후위표기식](https://www.acmicpc.net/problem/1918)|[Q1918.java](data_structure1/Q1918.java)|
 
 ## 1. 스택 Stack
 - 스택: 한쪽 끝에서만 자료를 넣고 뺄 수 있는 자료구조
