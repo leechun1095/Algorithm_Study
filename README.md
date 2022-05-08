@@ -23,6 +23,10 @@
   
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlckdgjs89)](https://solved.ac/dlckdgjs89) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=alias8282)](https://solved.ac/alias8282)  
   
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=Nozzi2)](https://solved.ac/Nozzi2) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
+  
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116)  
+  
 <br/>  
   
 |[![](https://github.com/leechun1095.png?size=80)](https://github.com/leechun1095)|[![](https://github.com/KHJhub.png?size=80)](https://github.com/KHJhub) |[![](https://github.com/skgml0.png?size=80)](https://github.com/skgml0) | [![](https://github.com/greenish0902.png?size=80)](https://github.com/greenish0902) |  
