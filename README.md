@@ -19,10 +19,10 @@
   
 ## 🏅 Members (Baekjoon)
 
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=skgml0)](https://solved.ac/ldy0956)  
-  
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlckdgjs89)](https://solved.ac/dlckdgjs89) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=alias8282)](https://solved.ac/alias8282)  
   
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=skgml0)](https://solved.ac/skgml0) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902)  
+   
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zdsa43)](https://solved.ac/zdsa43) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116)  
   
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
