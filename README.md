@@ -33,6 +33,6 @@
 |:---:|:---:|:---:|:---:|
 | 창헌 | 혜주 | 나희 | 소희 |  
 
-|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |  
-|:---:|:---:|:---:|
-| 정환 | 종명 | 서은 |  
+|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |  |  
+|:---:|:---:|:---:|:---:|
+| 정환 | 종명 | 서은 | 아라 |  
