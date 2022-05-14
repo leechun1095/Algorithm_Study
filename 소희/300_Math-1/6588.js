@@ -8,10 +8,7 @@ const rl = readline.createInterface({
 let isPrime = new Array(1000000 + 1).fill(1);
 isPrime[1] = 0;
 for (let i = 2; i <= 1000000; i++) {
-  for (let j = 2; i * j <= 1000000; j++) {
-    if (isPrime[i * j] == 0) continue;
-    isPrime[i * j] = 0;
-  }
+  for (let j = i * i; j <= 1000000; j += i) isPrime[j] = 0;
 }
 
 const solution = () => {
