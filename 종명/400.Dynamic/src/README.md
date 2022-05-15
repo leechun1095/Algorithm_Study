@@ -3,6 +3,8 @@
 
 <h3> 이친수 </h3>
 시간 초과 <br>
+
+
 		int n = Integer.parseInt(input);
 		int cnt = recursive(n);
 		
