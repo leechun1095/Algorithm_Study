@@ -2,7 +2,7 @@
 강의보고 풀었지만, 이해가 안 됨. 
 
 <h3> 이친수 </h3>
-시간 초과 
+시간 초과 <br>
 		int n = Integer.parseInt(input);
 		int cnt = recursive(n);
 		
