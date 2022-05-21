@@ -28,7 +28,7 @@
    
 <br/>  
   
-|[![](https://github.com/leechun1095.png?size=80)](https://github.com/leechun1095)|[![](https://github.com/KHJhub.png?size=80)](https://github.com/KHJhub) |<img src="https://github.com/skgml0.png" width="80">](https://github.com/skgml0)](https://github.com/skgml0) | [![](https://github.com/greenish0902.png?size=80)](https://github.com/greenish0902) |  
+|[![](https://github.com/leechun1095.png?size=80)](https://github.com/leechun1095)|[![](https://github.com/KHJhub.png?size=80)](https://github.com/KHJhub) |[<img src="https://github.com/skgml0.png" width="80">](https://github.com/skgml0) | [![](https://github.com/greenish0902.png?size=80)](https://github.com/greenish0902) |  
 |:---:|:---:|:---:|:---:|
 | 창헌 | 혜주 | 나희 | 소희 |  
 
