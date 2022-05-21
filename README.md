@@ -24,7 +24,7 @@
    
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zdsa43)](https://solved.ac/zdsa43) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116)  
   
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234)  
    
 <br/>  
   
@@ -32,6 +32,6 @@
 |:---:|:---:|:---:|:---:|
 | 창헌 | 혜주 | 나희 | 소희 |  
 
-|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |  |  
+|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |  
 |:---:|:---:|:---:|:---:|
 | 정환 | 종명 | 서은 | 성민 |  
