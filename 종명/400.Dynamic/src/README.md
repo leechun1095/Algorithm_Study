@@ -25,6 +25,12 @@
 <h3> 쉬운 계단수 </h3> <br>
 N : 길이, L : 마지막 수 <br>
 D[N][L] = D[N-1][L-1] + D[N-1][L+1]; <br>
+<br> 
+자바는 int, long 사이즈 다름 
 <br>
+int : 4 byte <br>
+long : 8 byte <br>
+※ C++ 은 4 byte 동일 <br>
+
 
 
