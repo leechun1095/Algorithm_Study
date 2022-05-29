@@ -11,8 +11,8 @@
 ###### ✔ 8. 2022.05.07(Sat) 10:00 ~ 11:20 (Discord) : 200-자료구조1 ~ 203-자료구조1(참고) 
 ###### ✔ 9. 2022.05.14(Sat) 10:00 ~ 10:50 (Discord) : 300-수학1
 ###### ✔ 10. 2022.05.21(Sat) 10:00 ~ 11:10 (Discord) : 400-다이나믹 Prog1 
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. 2022.05.28(Sat) 21:00 ~ 22:30 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전), Q2225 합분해 꼭 풀기
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. 2022.06.04(Sat) 10:00 ~ 12:00 (Discord) : 521-브루트포스(순열) ~ 533-브루트포스(재귀)
+###### ✔ 11. 2022.05.28(Sat) 21:00 ~ 21:30 (Discord) : 401-다이나믹 Prog1(연습) ~ 402-다이나믹 Prog1(도전), Q2225 합분해 꼭 풀기
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. 2022.06.04(Sat) 10:00 ~ 12:00 (Discord) : ~ 402-다이나믹 Prog1(도전)
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13. 2022.06.11(Sat) 10:00 ~ 12:00 (Discord) : 541-브루트포스(비트마스크) ~ 611-BFS(연습)  
 <br/>
   
@@ -22,9 +22,9 @@
   
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=skgml0)](https://solved.ac/skgml0) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902)  
    
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zdsa43)](https://solved.ac/zdsa43) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116)  
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
   
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234)  
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234)  
    
 <br/>  
   
@@ -32,6 +32,6 @@
 |:---:|:---:|:---:|:---:|
 | 창헌 | 혜주 | 나희 | 소희 |  
 
-|[![](https://github.com/Nozzi2.png?size=80)](https://github.com/Nozzi2)|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |  
-|:---:|:---:|:---:|:---:|
-| 정환 | 종명 | 서은 | 성민 |  
+|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |  
+|:---:|:---:|:---:|
+| 종명 | 서은 | 성민 |  
