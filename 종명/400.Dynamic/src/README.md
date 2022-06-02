@@ -1,3 +1,14 @@
+22.06.02 
+<h1> Scanner </h1> <br>
+Scanner sc = new Scanner(System.in); <br>
+sc.next() // 공백 이전까지 문자열 입력 받음 <br>
+sc.nextInt() // 정수 <br>
+<br>
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ <br>
+<br>
+
+22.05.27<br>
+
 <h3> 1로만들기 </h3>
 강의보고 풀었지만, 이해가 안 됨. 
 
