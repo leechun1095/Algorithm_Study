@@ -1,4 +1,5 @@
-// 해설 풀이 
+// 해설 풀이
+// 1,2,3 더하기 3
 import java.util.*;
 public class Q15988_Sol {
     

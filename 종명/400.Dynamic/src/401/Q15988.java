@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 1,2,3 ¥ı«œ±‚ 3
+
 public class Q15988 {
 
 	static final long mod = 1000000009L;
