@@ -8,6 +8,10 @@ public class Q1149 {
         int n = sc.nextInt();
         int[][] a = new int[n+1][3];
         int[][] d = new int[n+1][3];
+        
+        // A[i][j] = i번집을 색 j로 칠하는 비용의 최소값 
+        // j - 0 : Red / 1 : G / 2 : B  
+        
         for (int i=1; i<=n; i++) {
             for (int j=0; j<3; j++) {
                 a[i][j] = sc.nextInt();
