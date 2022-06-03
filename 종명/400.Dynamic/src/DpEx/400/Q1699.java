@@ -8,7 +8,9 @@ public class Q1699 {
         int[] d = new int[n+1];
         
         for (int i=1; i<=n; i++) {
-            d[i] = i;
+            d[i] = i; // 각각에 1개 씩 할당 
+
+            // 제곱이   
             for (int j=1; j*j <= i; j++) {
                 if (d[i] > d[i-j*j] + 1) {
                     d[i] = d[i-j*j] + 1;
