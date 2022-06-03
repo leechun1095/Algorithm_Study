@@ -24,8 +24,9 @@ public class Q2609 {
 			}
 		}
 		
+		// 최대공약수
 		System.out.println(maxDivNum);
-		// 최대공약수 = A * B / 최대공약수
+		// 최소공배수 = A * B / 최대공약수
 		System.out.println(A*B / maxDivNum);
 	}
 }
