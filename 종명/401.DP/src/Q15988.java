@@ -29,6 +29,7 @@ public class Q15988 {
 		
 	}
 	
+	// 시간 초과 
 	static double plus(double a)
 	{
 		if(a == 0)

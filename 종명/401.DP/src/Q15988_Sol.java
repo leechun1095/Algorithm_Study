@@ -1,5 +1,5 @@
-// 해설 풀이
-// 1,2,3 더하기 3
+// 1,2,3 더하기 3 풀이
+
 import java.util.*;
 public class Q15988_Sol {
     
@@ -9,6 +9,7 @@ public class Q15988_Sol {
         Scanner sc = new Scanner(System.in);
         long[] d = new long[1000001];
         d[0] = 1;
+        
         for (int i=1; i<=1000000; i++) {
             for (int j=1; j<=3; j++) {
                 if (i-j >= 0) {
@@ -17,6 +18,7 @@ public class Q15988_Sol {
             }
             d[i] %= mod;
         }
+        
         int t = sc.nextInt();
         while (t-- > 0) {
             int n = sc.nextInt();
