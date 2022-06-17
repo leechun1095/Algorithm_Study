@@ -1,5 +1,7 @@
 
 import java.util.*;
+
+// 사탕게임 : 좀 아리까리 하네 
 public class Q3085 {
     static int check(char[][] a) {
         int n = a.length;
@@ -26,6 +28,7 @@ public class Q3085 {
         }
         return ans;
     }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -34,14 +37,17 @@ public class Q3085 {
             a[i] = sc.next().toCharArray();
         }
         int ans = 0;
+        
         for (int i=0; i<n; i++) {
             for (int j=0; j<n; j++) {
+            	// 오른쪽 
                 if (j+1 < n) {
                     char t = a[i][j]; a[i][j] = a[i][j+1]; a[i][j+1] = t;
                     int temp = check(a);
                     if (ans < temp) ans = temp;
                     t = a[i][j]; a[i][j] = a[i][j+1]; a[i][j+1] = t;
                 }
+                // 아래 
                 if (i+1 < n) {
                     char t = a[i][j]; a[i][j] = a[i+1][j]; a[i+1][j] = t;
                     int temp = check(a);

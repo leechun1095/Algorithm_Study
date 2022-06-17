@@ -9,23 +9,27 @@ public class Q1476 {
         int S = sc.nextInt();
         int M = sc.nextInt();
         int e=1,s=1,m=1;
+        
+        // 같은 수가 나올 때까지 for문 돌림 
         for (int i=1;; i++) {
             if (e == E && s == S && m == M) {
                 System.out.println(i);
                 break;
             }
+            
             e += 1;
             s += 1;
             m += 1;
-            if (e == 16) {
+            
+            if (e == 16) 
                 e = 1;
-            }
-            if (s == 29) {
+
+            if (s == 29)
                 s = 1;
-            }
-            if (m == 20) {
+            
+            if (m == 20)
                 m = 1;
-            }
+            
         }
     }
 }
