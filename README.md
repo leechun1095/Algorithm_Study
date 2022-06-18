@@ -25,9 +25,9 @@
 
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlckdgjs89)](https://solved.ac/dlckdgjs89) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=alias8282)](https://solved.ac/alias8282)  
   
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=oil1116)](https://solved.ac/oil1116)  
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
    
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234)    
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=lssmm1230)](https://solved.ac/lssmm1230)    
 
    
 <br/>  
@@ -36,6 +36,6 @@
 |:---:|:---:|:---:|
 | 창헌 | 혜주 | 소희 |  
 
-|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/Tjdms16.png" width="80">](https://github.com/Tjdms16) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |  
+|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |[<img src="https://github.com/lssmm1230.png" width="80">](https://github.com/lssmm1230) |  
 |:---:|:---:|:---:|
-| 종명 | 서은 | 성민 |  
+| 종명 | 윤성민 | 이성민 |  
