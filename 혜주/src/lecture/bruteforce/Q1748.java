@@ -10,12 +10,13 @@ public class Q1748 {
 		
 		int N = Integer.parseInt(br.readLine());
 		
-		String str = "";
+		StringBuilder sb = new StringBuilder();
 		for(int i=1; i<N; i++) {
-			str += i;
+//			str += i;
+			sb.append(i);
 		}
 		
-		System.out.println(str.length());
+		System.out.println(sb.length());
 	}
 	
 }

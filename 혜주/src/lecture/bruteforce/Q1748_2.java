@@ -10,7 +10,7 @@ public class Q1748_2 {
 		
 		int N = Integer.parseInt(br.readLine());
 		int cnt = 1;
-		int temp = 0;
+		int result = 0;
 		int length = 10;
 		
 		for(int i=1; i<=N; i++) {
@@ -18,10 +18,10 @@ public class Q1748_2 {
 				cnt++;
 				length *= 10;
 			}
-			temp += cnt;
+			result += cnt;
 		}
 		
-		System.out.println(temp);
+		System.out.println(result);
 	}
 	
 }
