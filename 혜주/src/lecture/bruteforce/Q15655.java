@@ -4,10 +4,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Q15650_2 {
+public class Q15655 {
 	
 	static int[] arr; // 뽑힌 수의 배열
-	static boolean[] check; // 수의 사용여부
+	static int[] givenArr; // 주어진 숫자의 배열
 	
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,38 +17,43 @@ public class Q15650_2 {
 		int M = Integer.parseInt(st.nextToken());
 		
 		arr = new int[M];
-		check = new boolean[N+1];
+		givenArr = new int[N];
+
+		st = new StringTokenizer(br.readLine(), " ");
+		for(int i=0; i<N; i++) {
+			givenArr[i] = Integer.parseInt(st.nextToken());
+		}
 		
-		pick(N, M, 0, 1);
+		Arrays.sort(givenArr);
+		
+		pick(N, M, 0, 0);
 	}
 	
 	// 수 뽑기(재귀함수)
-	// 오름차순: 다음에 올 수는 현재 수보다 커야한다.
-	static void pick(int N, int M, int index, int current) { 
-		// current: 현재 선택된 자연수
+	static void pick(int N, int M, int index, int currentIndex) { 
+		// currentIndex: 현재 선택된 자연수 배열의 인덱스
 		if(index == M) {
 			printArr();
 			return;
 		}
 		
-		if(current > N) {
+		if(currentIndex > N-1) {
 			return;
 		}
 		
-		// current를 결과에 추가한다.
-		arr[index] = current;
-		pick(N, M, index+1, current+1);
+		// currentIndex를 뽑는다.
+		arr[index] = givenArr[currentIndex];
+		pick(N, M, index+1, currentIndex+1);
 		
 		// 또는
 		
-		// current를 결과에 추가하지 않는다.
-//		arr[index] = 0; // 불필요한 로직인듯
-		pick(N, M, index, current+1);
+		// currentIndex를 뽑지않는다.
+		pick(N, M, index, currentIndex+1);
 	}
 
 	private static void printArr() {
-		for(int current: arr) {
-			System.out.print(current + " ");
+		for(int num: arr) {
+			System.out.print(num + " ");
 		}
 		System.out.println();
 	}
