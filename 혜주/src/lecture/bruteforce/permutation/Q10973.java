@@ -1,10 +1,9 @@
 package lecture.bruteforce.permutation;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Q10972 {
+public class Q10973 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
@@ -17,7 +16,7 @@ public class Q10972 {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		if(next_permutaion(arr)) {
+		if(prev_permutaion(arr)) {
 			for(int i=0; i<N; i++) {
 				System.out.print(arr[i] + " ");
 			}
@@ -26,22 +25,23 @@ public class Q10972 {
 		}
 	}
 
-	// 다음 순열 구하기
-	private static boolean next_permutaion(int[] arr) {
+	// 이전 순열 구하기
+	private static boolean prev_permutaion(int[] arr) {
 		
 		int i = arr.length-1; // 배열의 마지막 index
-		// 1. 뒷자리부터 시작해서 오름차순인지 체크
-		while(i > 0 && arr[i-1] >= arr[i]) {
+		// 1. 뒷자리부터 시작해서 내림차순인지 체크
+		while(i > 0 && arr[i-1] <= arr[i]) {
 			i-=1;
 		}
-		// 2. 작은수를 만나면, 멈춘다
+		// 2. 큰수를 만나면, 멈춘다
+		
 		if(i <= 0) {
-			// 맨앞자리 까지 오름차순이면, 마지막 순열이다.
+			// 맨앞자리 까지 내림차순이면, 마지막 순열이다.
 			return false;
 		}
 		
 		int k = arr.length - 1;
-		while(arr[i-1] >= arr[k]) {
+		while(arr[i-1] <= arr[k]) {
 			k -= 1;
 		}
 		
