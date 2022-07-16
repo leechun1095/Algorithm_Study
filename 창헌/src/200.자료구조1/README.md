@@ -57,6 +57,65 @@ a b c | x y z  → a b c d | x y z  :  왼쪽에서 push
 
 ## Queue 구현 ([Q10845](Q10845.java))  
 ### Queue API 사용 ([Q10845_2](Q10845_2.java))  
+
+### ⭐️ Queue 선언
+```java
+Queue<Integer> q = new LinkedList<>();
+Integer형 선언
+```
+
+### ⭐️ Queue에 값 추가
+```java
+q.add(x);
+q.offer(x);
+
+1. add()
+해당 큐 맨 뒤에 값 삽입
+값 추가 성공 시 true 반환
+큐가 꽉 찬 경우 IllegalStateException 에러 발생
+
+2. offer()
+해당 큐 맨 뒤에 값 삽입
+값 추가 성공 시 true 반환
+값 추가 실패 시 false 반환
+``` 
+
+### ⭐️ Queue에 값 제거
+```java
+q.remove();
+q.poll();
+q.clear();
+
+1. remove()
+큐 맨 앞에 있는 값 반환 후 삭제
+큐가 비어 있는 경우 NoSuchElementException 에러 발생
+
+2. poll()
+큐 맨 앞에 있는 값 반환 후 삭제
+큐가 비어있을 경우 null 반환
+
+3. clear(
+큐 비우기
+```
+
+### ⭐️ Queue의 맨 앞 값 확인
+```java
+q.element();
+q.peek();
+
+1. element()
+큐의 맨 앞에 있는 값 반환
+큐가 비어 있는 경우 NoSuchElementException 에러 발생
+
+2. peek()
+큐의 맨 앞에 있는 값 반환
+비어있을 경우 null 반환
+``` 
+
+### 🧐 Queue에서 데이터를 추가, 삭제, 검색할 때 제공되는 메서드들의 차이
+* 문제 상황에서 에러를 발생시키느냐(add, remove, element)
+* 아니면 null 혹은 false를 반환(offer, poll, peek) 하는가입니다.
+
 <br/>
 
 ## 조세퍼스 ([Q1158](Q1158.java))  
