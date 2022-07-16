@@ -19,6 +19,7 @@ function getSum(arr) {
   }
   return sum;
 }
+
 function getArr(Arr, N, max) {
   const numberArr = [...Arr];
   let maxPop = max;
