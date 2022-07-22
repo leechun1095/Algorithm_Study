@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/1707
-// 실패!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 틀렸습니다!!!!!!!!!!!!!!!!!!!!!!!!!
 const fs = require('fs');
 let input;
 (process.platform === 'linux') ? input = fs.readFileSync('/dev/stdin', 'utf-8').toString().trim().split('\n') : input = fs.readFileSync('input.txt', 'utf-8').split('\r\n');
@@ -7,10 +7,12 @@ let input;
 const K = Number(input.shift());
 
 for (let i = 0; i < K; i++) {
+// for (let i = 0; i < 1; i++) {
   let [nodeCount, relationCount] = Array.from(input.shift().split(' '), Number);
   let arr = input.slice(0, relationCount).map(row => Array.from(row.split(' '), Number));
   input = input.slice(relationCount);
-  loop(nodeCount, relationCount, arr);
+  const isBinary = loop(nodeCount, relationCount, arr);
+  console.log(isBinary);
 }
 
 function loop(nodeCount, relationCount, arr) {
@@ -21,17 +23,35 @@ function loop(nodeCount, relationCount, arr) {
     relations[start].push(end);
     relations[end].push(start);
   }
-  console.log('relations', relations);
+  const binaryArr = Array.from(new Array(nodeCount + 1), () => null);
+  binaryArr[0] = true;
+  // console.log('relations', relations);
+  // console.log('binaryArr', binaryArr);
 
-  let isBynary = true;
-  relations.forEach((relation, index) => {
-    console.log('relation', relation);
-    relation.forEach(r => {
-      console.log('r', r, relations[r]);
-      // relations[r].includes(r);
-        isBynary = false;
+  for (let i = 0; i < relations.length; i++) {
+    const relation = relations[i];
+    // console.log('relation', relation);
+    const isBinary = bfs(relation, binaryArr, binaryArr[i]);
+    if (!isBinary) {
+      console.log('isBinary', isBinary)
+      return 'NO';
     }
-    );
-  });
-  isBynary ? console.log('YES') : console.log('NO');
+  }
+  return 'YES';
+  function bfs(relation, binaryArr, preBinary) {
+    for (let i = 0; i < relation.length; i++) {
+      const element = relation[i];
+      if (preBinary === null) {
+        return true;
+      }
+      if (binaryArr[node] === null) {
+        binaryArr[node] = !preBinary;
+        const isBinary = relations[node].every(relationNode => binaryArr[relationNode] === binaryArr[i]);
+        if (!isBinary) {
+          return false;
+        }
+      }
+    }
+    return true;
+  }
 }

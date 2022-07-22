@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/13023
-// 실패!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// 시간초과!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 const fs = require('fs');
 let input;
 (process.platform === 'linux') ? input = fs.readFileSync('/dev/stdin', 'utf-8').toString().trim().split('\n') : input = fs.readFileSync('input.txt', 'utf-8').split('\r\n');
@@ -17,10 +17,36 @@ for (let i = 0; i < arr.length; i++) {
 // console.log(relations);
 
 for (let i = 0; i < N; i++) {
-  const len = search(i);
-  
-  
+  // const i = 0;
+  const stack = [...relations[i]];
+  const visit = Array.from(new Array(N), () => false);
+  visit[i] = true;
+  // console.log('stack',stack, 'visit', visit);
+  const depth = dfs(relations[i], visit, 0);
+  // console.log('depth',depth);
+  if (depth > 3) {
+    console.log(1);
+    process.exit();
+  }
 }
-function search(i) {
-  relations[i]
+console.log(0);
+
+
+function dfs(arr, visit, depth) {
+  // console.log('loop',depth, 'visit',visit, 'stack', stack)
+  if (depth > 3) {
+    console.log(1);
+    process.exit();
+  }
+
+  let maxDepth = depth;
+  for (let i = 0; i < arr.length; i++) {
+    if (visit[arr[i]]) {
+    } else {
+      visit[arr[i]] = true;
+      const thisloopDepth = dfs(relations[arr[i]], [...visit], depth + 1);
+      maxDepth = maxDepth < thisloopDepth ? thisloopDepth : maxDepth;
+    }
+  }
+  return maxDepth;
 }
