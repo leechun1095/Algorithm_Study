@@ -18,7 +18,7 @@
 ###### ✔ 15. 2022.06.25(Sat) 10:00 ~ 12:00 (Discord) : 510 - 브루트 포스 (N과 M) 8번까지
 ###### ✔ 16. 2022.07.02(Sat) 10:00 ~ 11:00 (Discord) : 520 - 브루트 포스 - 순열, (N과 M) 9~12번까지
 ###### ✔ 17. 2022.07.09(Sat) 10:00 ~ 12:00 (Discord) : 530. 브루트 포스 재귀(4문제) ~ 540. 브루트 포스 비트마스크(4문제) 총 8문제
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18. 2022.07.16(Sat) 10:00 ~ 11:00 (Discord) : 600-그래프1 (6문제)
+###### ✔ 18. 2022.07.16(Sat) 10:00 ~ 11:00 (Discord) : 600-그래프1 (6문제)
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19. 2022.07.23(Sat) 10:00 ~ 11:00 (Discord) : 600-그래프1 (3문제) + 601-그래프1연습 (2문제)
 ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20. 2022.07.30(Sat) 10:00 ~ 11:00 (Discord) : 610-BFS (5문제)
 
@@ -27,18 +27,14 @@
 ## 🏅 Members (Baekjoon)
 
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dlckdgjs89)](https://solved.ac/dlckdgjs89) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=alias8282)](https://solved.ac/alias8282)  
-  
-[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=greenish0902)](https://solved.ac/greenish0902) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gregkim)](https://solved.ac/gregkim)  
    
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=ssmmyy1234)](https://solved.ac/ssmmyy1234) [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=lssmm1230)](https://solved.ac/lssmm1230)    
 
    
 <br/>  
   
-|[![](https://github.com/leechun1095.png?size=80)](https://github.com/leechun1095)|[![](https://github.com/KHJhub.png?size=80)](https://github.com/KHJhub)| [![](https://github.com/greenish0902.png?size=80)](https://github.com/greenish0902) |  
-|:---:|:---:|:---:|
-| 창헌 | 혜주 | 소희 |  
+|[![](https://github.com/leechun1095.png?size=80)](https://github.com/leechun1095)|[![](https://github.com/KHJhub.png?size=80)](https://github.com/KHJhub)|[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |[<img src="https://github.com/lssmm1230.png" width="80">](https://github.com/lssmm1230) | 
+|:---:|:---:|:---:|:---:|
+| 창헌 | 혜주 | 윤성민 | 이성민 |  
 
-|[<img src="https://github.com/GregorioKim.png" width="80">](https://github.com/GregorioKim) |[<img src="https://github.com/sungminyun1.png" width="80">](https://github.com/sungminyun1) |[<img src="https://github.com/lssmm1230.png" width="80">](https://github.com/lssmm1230) |  
-|:---:|:---:|:---:|
-| 종명 | 윤성민 | 이성민 |  
+
